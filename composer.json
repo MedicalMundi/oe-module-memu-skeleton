@@ -21,6 +21,17 @@
     "symfony/event-dispatcher": "^4.4.0",
     "nyholm/psr7": "^1.4"
   },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "extra": {
+    "bamarni-bin": {
+      "target-directory": "tools"
+    }
+  },
   "conflict": {
     "openemr/openemr": "<6.0.0"
   },
