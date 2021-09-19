@@ -17,7 +17,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "OpenEMR\\Modules\\Memu\\Tests": "tests/"
+      "OpenEMR\\Modules\\Memu\\Tests\\": "tests/"
     }
   },
   "require": {
