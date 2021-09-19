@@ -15,6 +15,11 @@
   "autoload": {
     "psr-4": {"OpenEMR\\Modules\\Memu\\": "src/"}
   },
+  "autoload-dev": {
+    "psr-4": {
+      "OpenEMR\\Modules\\Memu\\Tests": "tests/"
+    }
+  },
   "require": {
     "openemr/oe-module-installer-plugin": "^0.1.0",
     "php": "^7.1",
